@@ -16,3 +16,14 @@
   margin: 30px;
   padding: 10px;
 }
+.box:first-child{
+  margin-left: 0px;
+  margin-bottom: 0px;
+}
+.box:nth-child(2){
+  margin-bottom: 0px;
+}
+.box:last-child{
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
