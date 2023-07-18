@@ -13,17 +13,12 @@
   box-shadow: 0 0 0 6px #655;
   border-radius: 13px;
   background: #d2b48c;
-  margin: 30px;
+  margin: 0 30px;
   padding: 10px;
 }
 .box:first-child{
   margin-left: 0px;
-  margin-bottom: 0px;
-}
-.box:nth-child(2){
-  margin-bottom: 0px;
 }
 .box:last-child{
   margin-right: 0px;
-  margin-bottom: 0px;
 }
