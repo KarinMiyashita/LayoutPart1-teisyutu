@@ -1,38 +1,31 @@
 @charset "UTF-8";
 
-table{
+.cell--table{
   table-layout: fixed;
   width: 100%;
   border-collapse: collapse;
-  border: 1px solid #000000;
   text-align: center;
 }
-tr:nth-child(2n){
+.cell--table th{
   border: 1px solid #000000;
-  line-height: 22px;
+  padding: 10px;
+  background: #319c4a;
+  font-size: 18px;
+  line-height: 26px;
+}
+.cell--table tr{
   background: #d5ffc7;
 }
-tr:nth-child(2n+1){
-  border: 1px solid #000000;
-  line-height: 22px;
+.cell--table tr:nth-child(2n){
   background: #bcbcbc;
 }
-tr:first-child{
-  border: 1px solid #000000;
-  line-height: 26px;
-  background: #319c4a;
-}
-tr:last-child{
-  line-height: 22px;
+.cell--table tr:last-child{
   border-top: 1px double rgb(255 255 255);
 }
-th{
+.cell--table td{
   border: 1px solid #000000;
   padding: 10px;
-}
-td{
-  border: 1px solid #000000;
-  padding: 10px;
+  line-height: 22px;
 }
 .first{
   background: #319c4a;
